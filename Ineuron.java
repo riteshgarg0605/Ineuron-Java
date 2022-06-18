@@ -1,6 +1,7 @@
 //Program made by Ritesh Garg
 public class ineuron {
-    public static void main(String[] args) {        // for loop for printing rows
+    public static void main(String[] args) {        
+        // for loop for printing rows
         for (int i = 0; i < 5; i++) 
         {
             // for loop for printing columns
@@ -25,7 +26,8 @@ public class ineuron {
                     // Printing Row-2
                     else if (i == 1) 
                     {
-                        if (j == 2 || j == 6 || j == 8 || j == 12 || j == 14 || j == 20 || j == 24 || j == 26 || j == 29 || j == 31 || j == 35 || j == 37 || j == 39 || j == 43)
+                        if (j == 2 || j == 6 || j == 8 || j == 12 || j == 14 || j == 20 || j == 24 || j == 26 || j == 29 || j == 31 || j == 35
+                            || j == 37 || j == 39 || j == 43)
                             System.out.print("*");
                         else
                             System.out.print(" ");
@@ -34,7 +36,8 @@ public class ineuron {
                     // Printing Row-3
                     else if (i == 2) 
                     {
-                        if (j == 2 || j == 6 || j == 9 || j == 12 || j == 14 || j == 15 || j == 16 || j == 20 || j == 24 || j == 26 || j == 27 || j == 28 || j == 29 || j == 31 || j == 35 || j == 37 || j == 40 || j == 43)
+                        if (j == 2 || j == 6 || j == 9 || j == 12 || j == 14 || j == 15 || j == 16 || j == 20 || j == 24 || j == 26 || j == 27 
+                            || j == 28 || j == 29 || j == 31 || j == 35 || j == 37 || j == 40 || j == 43)
                             System.out.print("*");
                         else
                             System.out.print(" ");
@@ -43,7 +46,8 @@ public class ineuron {
                     // Printing Row-4
                     else if (i == 3) 
                     {
-                        if (j == 2 || j == 6 || j == 10 || j == 12 || j == 14 || j == 20 || j == 24 || j == 26 || j == 28 || j == 31 || j == 35 || j == 37 || j == 41 || j == 43)
+                        if (j == 2 || j == 6 || j == 10 || j == 12 || j == 14 || j == 20 || j == 24 || j == 26 || j == 28 || j == 31 || j == 35 
+                            || j == 37 || j == 41 || j == 43)
                             System.out.print("*");
                         else
                             System.out.print(" ");
