@@ -35,7 +35,8 @@ public class Telusko {
                     // Printing Row-3
                     else if (i == 2) 
                     {
-                        if (j == 2 || j == 6 || j == 7 || j == 8 || j == 12 || j == 18 || j == 22 || j == 24 || j == 25 || j == 26 || j == 27 || j == 28 || j == 30 || j == 31 || j == 35 || j == 39)
+                        if (j == 2 || j == 6 || j == 7 || j == 8 || j == 12 || j == 18 || j == 22 || j == 24 || j == 25 || j == 26 || 
+                            j == 27 || j == 28 || j == 30 || j == 31 || j == 35 || j == 39)
                             System.out.print("*");
                         else
                             System.out.print(" ");
